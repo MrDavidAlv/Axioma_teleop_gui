@@ -51,6 +51,10 @@ class SliderMode(QWidget):
         self._lin_spin.setValue(0.0)
         lin_layout.addWidget(self._lin_spin)
 
+        lin_reset_btn = QPushButton('Reset')
+        lin_reset_btn.clicked.connect(lambda: self._lin_slider.setValue(0))
+        lin_layout.addWidget(lin_reset_btn)
+
         layout.addLayout(lin_layout)
 
         # --- Angular velocity ---
@@ -70,6 +74,10 @@ class SliderMode(QWidget):
         self._ang_spin.setDecimals(2)
         self._ang_spin.setValue(0.0)
         ang_layout.addWidget(self._ang_spin)
+
+        ang_reset_btn = QPushButton('Reset')
+        ang_reset_btn.clicked.connect(lambda: self._ang_slider.setValue(0))
+        ang_layout.addWidget(ang_reset_btn)
 
         layout.addLayout(ang_layout)
 
