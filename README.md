@@ -4,12 +4,14 @@
   <img src="images/portada.gif" alt="Axioma Teleop GUI" width="700"/>
 </p>
 
-[![Python](https://img.shields.io/badge/Python-3.8+-yellow?logo=python)](#)
-[![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros)](#)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu)](#)
-[![PyQt5](https://img.shields.io/badge/PyQt5-GUI-41CD52)](#)
-[![TurtleSim](https://img.shields.io/badge/TurtleSim-Compatible-008C8C?logo=ros)](#)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](#)
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Python-3.8+-yellow?logo=python" alt="Python"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros" alt="ROS2 Humble"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu" alt="Ubuntu"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/PyQt5-GUI-41CD52" alt="PyQt5"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/TurtleSim-Compatible-008C8C?logo=ros" alt="TurtleSim"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-Apache%202.0-blue" alt="License"/></a>
+</p>
 
 A modular teleoperation GUI for ROS 2 robots. Publishes `geometry_msgs/Twist` on any configurable topic, so it works out of the box with differential-drive robots, TurtleSim, TurtleBot3, and any platform that subscribes to `cmd_vel`-style topics.
 
@@ -79,7 +81,7 @@ In the GUI, change the topic to `/turtle1/cmd_vel` and click **Set**. Now you ca
 
 | Axioma Robot (Gazebo) | TurtleSim |
 |:---------------------:|:---------:|
-| [![Axioma Demo](https://img.youtube.com/vi/5OpgtxM89YE/0.jpg)](https://www.youtube.com/watch?v=5OpgtxM89YE) | [![TurtleSim Demo](https://img.youtube.com/vi/Upvl45GqLco/0.jpg)](https://www.youtube.com/watch?v=Upvl45GqLco) |
+| <a href="https://www.youtube.com/watch?v=5OpgtxM89YE" target="_blank"><img src="https://img.youtube.com/vi/5OpgtxM89YE/0.jpg" alt="Axioma Demo" width="300"/></a> | <a href="https://www.youtube.com/watch?v=Upvl45GqLco" target="_blank"><img src="https://img.youtube.com/vi/Upvl45GqLco/0.jpg" alt="TurtleSim Demo" width="300"/></a> |
 
 ## Package Structure
 
